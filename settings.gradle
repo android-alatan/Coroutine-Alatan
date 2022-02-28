@@ -1,0 +1,20 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = "https://jitpack.io"
+            content {
+                includeGroupByRegex("com\\.github\\.android-alatan.*")
+            }
+        }
+
+    }
+}
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+rootProject.name = "Coroutine-Alatan"
+include ":coroutine-test-util"
+include ":coroutine-dispatcher-api", ":coroutine-dispatcher-assertion"

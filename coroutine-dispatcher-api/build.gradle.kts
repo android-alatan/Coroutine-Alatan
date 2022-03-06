@@ -1,5 +1,6 @@
 plugins {
     id("lib-jvm")
+    id("code-quality")
     id("publish-jvm")
 }
 

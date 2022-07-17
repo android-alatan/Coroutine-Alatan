@@ -1,5 +1,3 @@
-import gradle.kotlin.dsl.accessors._fd51a528d94160d6b8d93e504c81f9ca.testImplementation
-import gradle.kotlin.dsl.accessors._fd51a528d94160d6b8d93e504c81f9ca.testRuntimeOnly
 import org.gradle.api.artifacts.VersionCatalogsExtension
 import org.gradle.kotlin.dsl.getByType
 import org.gradle.kotlin.dsl.kotlin
